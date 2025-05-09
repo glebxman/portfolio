@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="static/js/code.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo" width="60" height="60">
+        </div>
+        <h1 class="header__title">Solution</h1>
+        <div class="header__buttons">
+            <a href="#" class="social-media"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="social-media"><i class='bx bxl-telegram'></i></a>
+            <a href="#" class="social-media"><i class='bx bxl-discord-alt'></i></a>
+        </div>
+    </header>
+    <div class="card-info">
+        <div class="card-profile">
+            <img class="profile__img" src="img/profile.jpg" alt="Profile Picture" width="300" height="300">
+            <h2 class="profile__name">Solution</h2>
+            <p class="profile__description">Web Developer</p>
+            <ul class="profile-languages">
+                <li class="profile-language"><i class='bx bxl-java'></i> Java</li>
+                <li class="profile-language"><i class='bx bxl-c-plus-plus'></i> C++</li>
+                <li class="profile-language"><i class='bx bxl-typescript'></i>TypeScript</li>
+                <li class="profile-language"><i class='bx bxl-vuejs'></i> Vue.js</li>
+                <li class="profile-language"><i class='bx bxl-javascript'></i> JavaScript</li>
+            </ul>
+        </div>
+        <div class="card__description">
+            <h2 class="description__title">About Me</h2>
+            <p class="description__text">
+                Меня зовут Solution, и&nbsp;я&nbsp;не&nbsp;просто веб-разработчик&nbsp;&mdash; я&nbsp;тот, кто
+                превращает обычные сайты в&nbsp;конфетку. Мой стек&nbsp;&mdash; это не&nbsp;просто набор слов: Java,
+                C++, C, Vue.js, TypeScript&nbsp;&mdash; я&nbsp;с&nbsp;ними не&nbsp;просто знаком, мы&nbsp;вместе
+                не&nbsp;спим ночами. Умею пилить как фронт, так и&nbsp;бэк, делать интерфейсы, от&nbsp;которых глаз
+                не&nbsp;оторвать, и&nbsp;архитектуру, от&nbsp;которой бэкендеры не&nbsp;плачут. <br><br>
+                Люблю чистый, читаемый код и&nbsp;кайфую от&nbsp;сложных задач. Разрабатываю интерфейсы с&nbsp;упором
+                на&nbsp;UX, адаптивность, анимации и&nbsp;современный дизайн. Постоянно учусь, экспериментирую,
+                и&nbsp;если в&nbsp;проекте всё слишком спокойно&nbsp;&mdash; значит, пришло время затащить что-то
+                новое.<br><br>
+                В&nbsp;команде я&nbsp;как RedBull&nbsp;&mdash; заряжаю идеями и&nbsp;энергией. Если надо быстро решить
+                проблему&nbsp;&mdash; я&nbsp;уже на&nbsp;месте. Никакой бюрократии, только код, фичи и&nbsp;результат.
+                <br><br>
+                Сейчас в&nbsp;поиске проектов, где можно проявить себя на&nbsp;максимум. Люблю работать
+                с&nbsp;амбициозными людьми и&nbsp;делать продукты, которыми реально хочется пользоваться.
+            </p>
+            <button id="openBtn" class="more-info">Больше</button>
+        </div>
+        <div id="popup" class="more-info-about-me hidden">
+            <div class="more-info-about-me-bg">
+                <h2 class="title">Ещё факты</h2>
+                <ul>
+                    <li>Постоянно учусь и&nbsp;развиваюсь</li>
+                    <li>Работаю с&nbsp;разными фреймворками и&nbsp;языками</li>
+                    <li>Умею работать в&nbsp;команде и&nbsp;самостоятельно</li>
+                    <li>Имею опыт работы с&nbsp;разными проектами</li>
+                    <li>Легко обучаемый и&nbsp;открытый к&nbsp;новым идеям</li>
+                </ul>
+                <button class="more-info more-info--close" id="closeBtn">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

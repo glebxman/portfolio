@@ -1,0 +1,24 @@
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e7e9e6;
+    font-size: 25px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.social-media:hover {
+    filter: drop-shadow(0 0 5px #e7e9e6);
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
