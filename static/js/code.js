@@ -10,5 +10,4 @@ document.addEventListener('DOMContentLoaded', () => {
     closeBtn.addEventListener('click', () => {
         okno.classList.add('hidden');
     });
-
 });
