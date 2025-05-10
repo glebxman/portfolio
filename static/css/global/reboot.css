@@ -18,11 +18,20 @@ header {
     justify-content: space-between;
     background: linear-gradient(140deg, #495c45, #080908, #080908, #495c45);
     border-radius: 100px;
-    margin: 20px 20px 50px 20px;
+    margin: 20px 20px 30px 20px;
     padding: 5px;
     text-align: center;
 }
 
-ul {
-    list-style: none;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    box-shadow: 0 0 10px #495c45;
+    background: linear-gradient(140deg, #495c45, #080908, #080908, #495c45);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    justify-content: center;
 }

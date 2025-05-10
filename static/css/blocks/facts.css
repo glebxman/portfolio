@@ -1,0 +1,44 @@
+.facts {
+    list-style: none;
+}
+
+.facts__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.title__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #adbbaa;
+}
+
+.facts-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.facts-window-bg {
+    background: linear-gradient(140deg, #495c45, #080908, #080908, #495c45);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.more-info--close {
+    margin-top: 10px;
+}
